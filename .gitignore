@@ -1,1 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# API Keys and Credentials
+*.pem
+*.key
+credentials.json
+
+# Trained Models / Large Model Files
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor Files
+.vscode/
+.idea/
